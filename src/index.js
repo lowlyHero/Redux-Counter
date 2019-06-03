@@ -7,7 +7,6 @@ import counter from './reducers';
 
 const store = createStore(counter);
 
-
 ReactDOM.render(
   <Provider store={store}>
     <Counter />
